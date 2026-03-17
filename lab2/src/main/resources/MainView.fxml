@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.wojtekolo.studia.MainController">
+   <children>
+      <HBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <StackPane fx:id="leftPane" HBox.hgrow="ALWAYS" minWidth="400.0" />
+            <StackPane fx:id="rightPane" HBox.hgrow="ALWAYS" minWidth="400.0" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
