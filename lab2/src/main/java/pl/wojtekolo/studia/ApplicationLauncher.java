@@ -8,10 +8,6 @@ import pl.wojtekolo.studia.file.FileExplorer;
 public class ApplicationLauncher extends javafx.application.Application{
     @Override
     public void start(Stage stage) throws Exception {
-
-        FileExplorer explorer = new FileExplorer();
-
-
         var resource = getClass().getResource("/MainView.fxml");
 
         FXMLLoader loader = new FXMLLoader(resource);
