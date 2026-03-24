@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.WeakHashMap;
 
 public class FileCacher {
-    Map<String, WeakReference<ReadFileDTO>> cache = new WeakHashMap<>();
+    Map<String, WeakReference<ReadFileDTO>> cache = new HashMap<>();
 
     public ResponseDTO getData(File file, FileProcessingStrategy strategy){
         String path = file.getAbsolutePath();
